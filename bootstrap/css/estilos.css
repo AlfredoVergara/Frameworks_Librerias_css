@@ -1,0 +1,45 @@
+.blog-body {
+  background: #8f0222;
+}
+
+.logos {
+  background: #ffffff;
+  padding: 15px;
+}
+
+.logos1 {
+  background: #ff9933;
+}
+.padre{
+  vertical-align: bottom;
+}
+.log2{
+  vertical-align: bottom;
+}
+
+.img1 {
+
+width: 100%;
+}
+h2 {
+  font-size: 22px;
+}
+.imgr {
+ width: 40px;
+ height: 50px;
+}
+@media (max-width: 770px) {
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .titulo-text {
+    font-size: 15px;
+  }
+
+  .right-column {
+    display: none;
+  }
+
+}
