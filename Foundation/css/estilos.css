@@ -1,1 +1,102 @@
+body{
+  background-image: url("../imagen/restaurantefondo.jpg");
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;;
+  /*padding-right: 20px;*/
+}
+.contenido{
+  background-color: #888b9f;
+  width: 80%;
+   opacity: 0.9;
+   align-content: center;
+}
+.contenido1{
+  border-right: 1px solid white;
 
+ }
+ .contenido2{
+   background-color: #cecfdb;
+   opacity: 15;
+   color: #f46fae;
+
+  }
+.taman{
+  width: 60%;
+}
+.redondea{
+  border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+}
+p, h1{
+  color: white;
+}
+
+@media (max-width: 770px) {
+
+  .contenido{
+    background-color: #888b9f;
+    width: 100%;
+     opacity: 8;
+  }
+  body{
+    background-image: url("../imagen/restaurantefondo0.jpg");
+    height: 1%;
+    background-size: contain;
+    background-repeat:no-repeat;
+    /*padding-right: 20px;*/
+  }
+}
+
+.callot{
+  border: 1px solid #f46fae;
+
+  background-color: #cecfdb;
+  height: 35px;
+}
+
+
+.list-group {
+  margin-bottom: 1rem;
+  border: 1px solid #ffaeff;
+  border-radius: 0;
+  background-color: #cecfdb;
+  box-shadow: none;
+  overflow: hidden;
+  color: #ffaeff;
+}
+
+.list-group > :last-child {
+  margin-bottom: 0;
+}
+
+.list-group-item {
+  padding: 1rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.list-group-item > :last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.list-group-item.active {
+  color: #fefefe;
+  background-color: #1779ba;
+  border-color: 1px solid #1779ba;
+}
+
+.list-group-item:hover, .list-group-item:focus {
+  background-color: #e6e6e6;
+}
+
+.list-group-item:hover.active, .list-group-item:focus.active {
+  background-color: #1779ba;
+}
+
+.list-group-item.disabled, .list-group-item.disabled:hover, .list-group-item.disabled:focus, .list-group-item[disabled], .list-group-item[disabled]:hover, .list-group-item[disabled]:focus {
+  color: #8a8a8a;
+  cursor: not-allowed;
+  background-color: #fefefe;
+}
